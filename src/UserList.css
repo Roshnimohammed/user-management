@@ -1,0 +1,18 @@
+/* src/UserList.css */
+.user-list {
+    list-style-type: none; /* Removes default list bullets */
+    padding: 0; /* Removes padding from the list */
+  }
+  
+  .user-list li {
+    background-color: #f4f4f4; /* Light background for list items */
+    padding: 10px; /* Adds padding inside each list item */
+    margin: 10px 0; /* Adds space between the list items */
+    border-radius: 5px; /* Rounded corners for each list item */
+    font-size: 16px; /* Sets a readable font size */
+  }
+  
+  .user-list li strong {
+    color: #333; /* Dark color for the name part */
+  }
+  
